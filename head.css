@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    background-color:#202020;
+}
+header{
+    top:0;
+    position:fixed;
+    align-items:center;
+    background-color:#242424;
+    width:100%;
+    height:80px;
+    box-shadow: 0 1px 10px;
+    z-index: 100;
+}
+.container{
+    padding-left:100px;
+    position:relative;
+    grid-template-columns:1fr 1fr;
+    width:10%;
+    align-items:center;
+    top:20px;
+    left:20px;
+    
+}
+.header-links{
+    position:relative;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items:center;
+    width:20%;
+    left:1100px;
+    bottom:7px;
+    gap:100px;
+}
+.links{
+    color:white;
+    font-family:"Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* logo */
+.light{
+    position: relative;
+}
+.mont{
+    color:white;
+    font-family:"Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
