@@ -42,6 +42,8 @@ header{
 /* logo */
 .light{
     position: relative;
+    width:31px;
+    height:35px;
 }
 .mont{
     color:white;
