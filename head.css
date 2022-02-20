@@ -1,16 +1,20 @@
 body{
     margin:0;
     background-color:#202020;
-}
+} 
 header{
     top:0;
     position:fixed;
     align-items:center;
     background-color:#242424;
-    width:100%;
+    width:1519px;
     height:80px;
     box-shadow: 0 1px 10px;
     z-index: 100;
+}
+/* mob-menu */
+header .mobile-menu{
+    display:none;
 }
 .container{
     padding-left:100px;
@@ -31,6 +35,22 @@ header{
     bottom:7px;
     gap:100px;
 }
+/* menu */
+.menu{
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}    
+.menu1{
+    width:2%;
+    position: relative;
+    bottom: 32px;
+    left:730px;
+    cursor: pointer;
+    display:none;
+}   
+
+
 .links{
     color:white;
     font-family:"Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
@@ -49,4 +69,12 @@ header{
     color:white;
     font-family:"Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
 }
-
+/* responsive */
+@media only screen and (max-width:1200px){
+    .header-links .links {
+        display: none;
+    }
+    .menu1{
+        diplay:block;
+    }
+}
